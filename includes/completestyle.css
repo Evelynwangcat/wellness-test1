@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Montserrat:400|Neuton');
+
+
+
+/* GENERAL */
+
+body {
+	background-color: #e6f1fc;
+	font-family: 'Montserrat', sans-serif;	
+    font-size: 1.7em;
+    line-height: 2.1em;
+}
+
+ul, #app-title, .wrapper, footer {
+	background-color: white;
+    width: 100%;  /* ??? */
+    text-align: center;
+}
+
+#wrapper {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.intro-text, footer {
+	text-align: center;
+}
+
+ul { 
+	text-align: center;
+	width: 100%;
+	list-style-type: none;
+
+} /* FotnAwesome SVG https://use.fontawesome.com/releases/v5.0.10/svgs/brands/angellist.svg */
+
+ul li {
+	padding: 0.5em;
+	margin: 0.5em;
+	font-size: 1em;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+ 
+
+
+
+/*#app-title {
+	font-family: 'Domine', serif;
+}*/
+
+/* HEADER STYLES */
+#app-title {
+	font-family: 'Domine', serif;
+	width: 45%;
+	display: inline-block;
+	padding: 0.5em;
+	font-size: 1.5em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+
+/*BUTTONS */
+
+.colorButton {
+	background: linear-gradient(0.25turn, #d580fe, #0a9bd6);
+	color:#fff;
+	width: 38%;
+	padding: 0.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size:1em;
+	text-align: center;
+	border-radius:20px;
+}
+
+
+
+/* NAVIGATION */
+
+nav {
+	background-color: #e6f1fc;
+	padding: 2em  3em 3em 3em;
+	margin: 0 auto;
+}
+
+nav img {
+	float: left;
+	width:100px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 0.5em;
+	position: relative; 
+	top:20px;
+} 
+
+nav ul {
+	color: #0099ff;
+	list-style: none;
+	font: bold 1.2em 'Montserrat', sans-serif;
+	text-decoration: none;
+	/*margin-top: 2.5em;*/
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	/*padding-left: 21px;*/
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+/********************************* MEDIA QUERIES *************************** */
+
+
+@media only screen and (min-width: 500px) {
+
+	body {
+		background-color: green;
+	}	
+  
+
+  	ul {
+		list-style-image: url( '../../assets/vic.svg' ); 
+		text-align: left;
+
+	} /* FotnAwesome SVG https://use.fontawesome.com/releases/v5.0.10/svgs/brands/angellist.svg */
+
+/*	ul li {
+		padding: 0.5em;
+		margin: 0.5em;
+		font-weight: bold;
+	}*/
+
+}
+
+
+

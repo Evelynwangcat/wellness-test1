@@ -1,0 +1,290 @@
+[10-Jan-2018 14:26:34 America/Toronto] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/kouzaevi/public_html/wellness-toolbox/my-tools.php on line 20
+[10-Jan-2018 14:27:05 America/Toronto] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/kouzaevi/public_html/wellness-toolbox/my-tools.php on line 20
+[10-Jan-2018 14:39:09 America/Toronto] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/kouzaevi/public_html/wellness-toolbox/my-tools.php on line 20
+[10-Jan-2018 14:56:21 America/Toronto] PHP Parse error:  syntax error, unexpected '?>' in /home/kouzaevi/public_html/wellness-toolbox/my-tools.php on line 74
+[29-Mar-2018 21:39:07 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/myAccount.php:48) in /home/kouzaevi/public_html/wellness-test1/myAccount.php on line 48
+[29-Mar-2018 21:47:34 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/myAccount.php:48) in /home/kouzaevi/public_html/wellness-test1/myAccount.php on line 48
+[01-Apr-2018 11:39:12 America/Toronto] PHP Warning:  include(safe-db-file/public_html/wellness-test1/includes/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:39:12 America/Toronto] PHP Warning:  include(): Failed opening 'safe-db-file/public_html/wellness-test1/includes/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:39:12 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:7
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(7): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 7
+[01-Apr-2018 11:44:39 America/Toronto] PHP Warning:  include(safe-db-file/public_html/wellness-test1/includes/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:44:39 America/Toronto] PHP Warning:  include(): Failed opening 'safe-db-file/public_html/wellness-test1/includes/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:44:39 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:7
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(7): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 7
+[01-Apr-2018 11:45:18 America/Toronto] PHP Warning:  include(safe-db-file/public_html/wellness-test1/includes/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:45:18 America/Toronto] PHP Warning:  include(): Failed opening 'safe-db-file/public_html/wellness-test1/includes/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:45:18 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:7
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(7): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 7
+[01-Apr-2018 11:45:26 America/Toronto] PHP Warning:  include(safe-db-file/public_html/wellness-test1/includes/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:45:26 America/Toronto] PHP Warning:  include(): Failed opening 'safe-db-file/public_html/wellness-test1/includes/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:45:26 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:7
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(7): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 7
+[01-Apr-2018 11:45:44 America/Toronto] PHP Warning:  include(safe-db-file/public_html/wellness-test1/includes/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:45:44 America/Toronto] PHP Warning:  include(): Failed opening 'safe-db-file/public_html/wellness-test1/includes/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:45:44 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:7
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(7): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 7
+[01-Apr-2018 11:46:05 America/Toronto] PHP Warning:  include(safe-db-file/public_html/wellness-test1/includes/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:46:05 America/Toronto] PHP Warning:  include(): Failed opening 'safe-db-file/public_html/wellness-test1/includes/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 3
+[01-Apr-2018 11:46:05 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:7
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(7): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 7
+[01-Apr-2018 11:48:07 America/Toronto] PHP Warning:  include(/includes/wellness-test1/public_html/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 11:48:07 America/Toronto] PHP Warning:  include(): Failed opening '/includes/wellness-test1/public_html/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 11:48:07 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 11:49:39 America/Toronto] PHP Warning:  include(includes/wellness-test1/public_html/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 11:49:39 America/Toronto] PHP Warning:  include(): Failed opening 'includes/wellness-test1/public_html/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 11:49:39 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 11:52:09 America/Toronto] PHP Warning:  include(../wellness-test1/public_html/home_kouzaevi/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 11:52:09 America/Toronto] PHP Warning:  include(): Failed opening '../wellness-test1/public_html/home_kouzaevi/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 11:52:09 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 11:54:22 America/Toronto] PHP Warning:  include(../wellness-test1/public_html/home/kouzaevi/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 11:54:22 America/Toronto] PHP Warning:  include(): Failed opening '../wellness-test1/public_html/home/kouzaevi/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 11:54:22 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 11:54:57 America/Toronto] PHP Warning:  include(../wellness-test1/public_html/home/kouzaevi/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 11:54:57 America/Toronto] PHP Warning:  include(): Failed opening '../wellness-test1/public_html/home/kouzaevi/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 11:54:57 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 12:00:37 America/Toronto] PHP Warning:  include(../../wellness-test1/public_html/home/kouzaevi/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:00:37 America/Toronto] PHP Warning:  include(): Failed opening '../../wellness-test1/public_html/home/kouzaevi/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:00:37 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 12:01:24 America/Toronto] PHP Warning:  include(/../wellness-test1/public_html/home/kouzaevi/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:01:24 America/Toronto] PHP Warning:  include(): Failed opening '/../wellness-test1/public_html/home/kouzaevi/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:01:24 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 12:02:09 America/Toronto] PHP Warning:  include(../public_html/home/kouzaevi/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:02:09 America/Toronto] PHP Warning:  include(): Failed opening '../public_html/home/kouzaevi/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:02:09 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 12:05:32 America/Toronto] PHP Warning:  include(../public_html/home/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:05:32 America/Toronto] PHP Warning:  include(): Failed opening '../public_html/home/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:05:32 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 12:06:16 America/Toronto] PHP Warning:  include(/public_html/home/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:06:16 America/Toronto] PHP Warning:  include(): Failed opening '/public_html/home/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:06:16 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 12:06:27 America/Toronto] PHP Warning:  include(/public_html/home/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:06:27 America/Toronto] PHP Warning:  include(): Failed opening '/public_html/home/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:06:27 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 12:08:13 America/Toronto] PHP Warning:  include(public_html/home/safe-db-file/config.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:08:13 America/Toronto] PHP Warning:  include(): Failed opening 'public_html/home/safe-db-file/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 5
+[01-Apr-2018 12:08:13 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php:9
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php(9): PDO->__construct('mysql:host=loca...', NULL, NULL)
+#1 /home/kouzaevi/public_html/wellness-test1/login-form.php(4): require_once('/home/kouzaevi/...')
+#2 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/includes/dbfile.php on line 9
+[01-Apr-2018 13:48:37 America/Toronto] PHP Warning:  Missing argument 2 for draw_calendar(), called in /home/kouzaevi/public_html/wellness-test1/calendar-rus.php on line 85 and defined in /home/kouzaevi/public_html/wellness-test1/calendar-rus.php on line 19
+[01-Apr-2018 14:28:32 America/Toronto] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 107
+[01-Apr-2018 14:30:26 America/Toronto] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 107
+[01-Apr-2018 14:40:14 America/Toronto] PHP Fatal error:  Call to a member function fetch() on null in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 82
+[01-Apr-2018 14:42:52 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 168
+[01-Apr-2018 14:44:13 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 163
+[01-Apr-2018 14:44:18 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 163
+[01-Apr-2018 14:44:51 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 163
+[01-Apr-2018 14:44:54 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 163
+[01-Apr-2018 14:44:56 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 163
+[01-Apr-2018 14:45:40 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 163
+[01-Apr-2018 14:45:41 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 163
+[01-Apr-2018 14:45:55 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 163
+[01-Apr-2018 14:46:35 America/Toronto] PHP Parse error:  syntax error, unexpected '?>' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 88
+[01-Apr-2018 14:47:40 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 129
+[01-Apr-2018 14:48:51 America/Toronto] PHP Parse error:  syntax error, unexpected end of file in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 92
+[01-Apr-2018 14:53:18 America/Toronto] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 49
+[01-Apr-2018 14:56:35 America/Toronto] PHP Warning:  PDOStatement::fetch() expects parameter 1 to be long, string given in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 105
+[01-Apr-2018 15:22:26 America/Toronto] PHP Parse error:  syntax error, unexpected ';' in /home/kouzaevi/public_html/wellness-test1/my-tools-2.php on line 71
+[01-Apr-2018 15:44:59 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/test-user.php:2) in /home/kouzaevi/public_html/wellness-test1/test-user.php on line 3
+[01-Apr-2018 15:45:27 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/test-user.php:2) in /home/kouzaevi/public_html/wellness-test1/test-user.php on line 2
+[01-Apr-2018 15:45:28 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/test-user.php:2) in /home/kouzaevi/public_html/wellness-test1/test-user.php on line 2
+[01-Apr-2018 15:45:55 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/test-user.php:2) in /home/kouzaevi/public_html/wellness-test1/test-user.php on line 2
+[01-Apr-2018 15:45:56 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/test-user.php:2) in /home/kouzaevi/public_html/wellness-test1/test-user.php on line 2
+[01-Apr-2018 15:45:57 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/test-user.php:2) in /home/kouzaevi/public_html/wellness-test1/test-user.php on line 2
+[01-Apr-2018 16:13:18 America/Toronto] PHP Fatal error:  Call to a member function fetch() on null in /home/kouzaevi/public_html/wellness-test1/my-tools-3.php on line 50
+[05-Apr-2018 13:14:18 America/Toronto] PHP Parse error:  syntax error, unexpected '?>' in /home/kouzaevi/public_html/wellness-test1/index.php on line 52
+[06-Apr-2018 18:59:08 America/Toronto] PHP Fatal error:  Call to a member function fetch() on null in /home/kouzaevi/public_html/wellness-test1/schedule2.php on line 67
+[06-Apr-2018 19:16:58 America/Toronto] PHP Parse error:  syntax error, unexpected ',' in /home/kouzaevi/public_html/wellness-test1/schedule2.php on line 71
+[06-Apr-2018 23:04:04 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/myAccount.php:48) in /home/kouzaevi/public_html/wellness-test1/myAccount.php on line 48
+[11-Apr-2018 14:48:35 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/myAccount.php:48) in /home/kouzaevi/public_html/wellness-test1/myAccount.php on line 48
+[11-Apr-2018 15:02:03 America/Toronto] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/kouzaevi/public_html/wellness-test1/myAccount.php:48) in /home/kouzaevi/public_html/wellness-test1/myAccount.php on line 48
+[11-Apr-2018 18:42:44 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 136
+[11-Apr-2018 18:44:57 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 108
+[11-Apr-2018 18:45:50 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 108
+[11-Apr-2018 18:46:11 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 108
+[11-Apr-2018 18:46:31 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 108
+[11-Apr-2018 18:46:49 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 108
+[11-Apr-2018 18:47:06 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 108
+[11-Apr-2018 20:08:20 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 108
+[11-Apr-2018 20:21:35 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 108
+[11-Apr-2018 21:01:43 America/Toronto] PHP Parse error:  syntax error, unexpected '?>' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 59
+[11-Apr-2018 21:02:17 America/Toronto] PHP Parse error:  syntax error, unexpected '?>' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 58
+[11-Apr-2018 21:02:19 America/Toronto] PHP Parse error:  syntax error, unexpected '?>' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 58
+[11-Apr-2018 21:07:42 America/Toronto] PHP Parse error:  syntax error, unexpected '?>' in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 62
+[11-Apr-2018 21:09:36 America/Toronto] PHP Parse error:  syntax error, unexpected '?>' in /home/kouzaevi/public_html/wellness-test1/my-tools-testApril11.php on line 62
+[11-Apr-2018 23:33:00 America/Toronto] PHP Parse error:  syntax error, unexpected 'Table4' (T_STRING) in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 33
+[11-Apr-2018 23:36:10 America/Toronto] PHP Fatal error:  Call to a member function execute() on null in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 38
+[11-Apr-2018 23:51:51 America/Toronto] PHP Parse error:  syntax error, unexpected 'related_tabid' (T_STRING) in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 30
+[12-Apr-2018 00:45:52 America/Toronto] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 187
+[12-Apr-2018 00:49:33 America/Toronto] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 159
+[12-Apr-2018 01:36:39 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 193
+[12-Apr-2018 01:37:37 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 196
+[12-Apr-2018 01:37:41 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 196
+[12-Apr-2018 01:38:02 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 196
+[12-Apr-2018 01:38:56 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 196
+[12-Apr-2018 01:39:52 America/Toronto] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 163
+[17-Apr-2018 10:49:11 America/Toronto] PHP Parse error:  syntax error, unexpected 'ND' (T_STRING) in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 107
+[17-Apr-2018 10:59:15 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 10:59:15 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 10:59:53 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 10:59:53 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 10:59:55 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 10:59:55 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:00:46 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:00:46 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:01:23 America/Toronto] PHP Warning:  include(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/index.php on line 3
+[17-Apr-2018 11:01:23 America/Toronto] PHP Warning:  include(): Failed opening 'includes/database.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/index.php on line 3
+[17-Apr-2018 11:01:23 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/index.php on line 14
+[17-Apr-2018 11:01:38 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:01:38 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:01:40 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:01:40 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:02:31 America/Toronto] PHP Warning:  require_once(../../../CREDS/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:02:31 America/Toronto] PHP Fatal error:  require_once(): Failed opening required '../../../CREDS/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:02:56 America/Toronto] PHP Warning:  require_once(../../../../CREDS/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:02:56 America/Toronto] PHP Fatal error:  require_once(): Failed opening required '../../../../CREDS/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-tools.php on line 4
+[17-Apr-2018 11:03:25 America/Toronto] PHP Warning:  include(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/index.php on line 3
+[17-Apr-2018 11:03:25 America/Toronto] PHP Warning:  include(): Failed opening 'includes/database.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/index.php on line 3
+[17-Apr-2018 11:03:25 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/index.php on line 14
+[17-Apr-2018 11:10:15 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 4
+[17-Apr-2018 11:10:15 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 4
+[17-Apr-2018 11:10:16 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 4
+[17-Apr-2018 11:10:16 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 4
+[17-Apr-2018 11:13:08 America/Toronto] PHP Warning:  include(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/index.php on line 3
+[17-Apr-2018 11:13:08 America/Toronto] PHP Warning:  include(): Failed opening 'includes/database.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/index.php on line 3
+[17-Apr-2018 11:13:08 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/index.php on line 14
+[17-Apr-2018 11:14:08 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 4
+[17-Apr-2018 11:14:08 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 4
+[17-Apr-2018 11:14:10 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 4
+[17-Apr-2018 11:14:10 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/schedule.php on line 4
+[17-Apr-2018 11:14:23 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 4
+[17-Apr-2018 11:14:23 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 4
+[17-Apr-2018 11:14:27 America/Toronto] PHP Warning:  include(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/index.php on line 3
+[17-Apr-2018 11:14:27 America/Toronto] PHP Warning:  include(): Failed opening 'includes/database.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/index.php on line 3
+[17-Apr-2018 11:14:27 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/index.php on line 14
+[17-Apr-2018 11:15:44 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/login-form.php on line 4
+[17-Apr-2018 11:15:44 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/login-form.php on line 4
+[17-Apr-2018 11:16:25 America/Toronto] PHP Warning:  include(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/process-login.php on line 8
+[17-Apr-2018 11:16:25 America/Toronto] PHP Warning:  include(): Failed opening 'includes/database.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/process-login.php on line 8
+[17-Apr-2018 11:16:25 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/process-login.php on line 10
+[17-Apr-2018 11:21:27 America/Toronto] PHP Warning:  include(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/process-add.php on line 15
+[17-Apr-2018 11:21:27 America/Toronto] PHP Warning:  include(): Failed opening 'includes/database.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/process-add.php on line 15
+[17-Apr-2018 11:21:27 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/process-add.php on line 17
+[17-Apr-2018 11:26:14 America/Toronto] PHP Warning:  include(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/register.php on line 3
+[17-Apr-2018 11:26:14 America/Toronto] PHP Warning:  include(): Failed opening 'includes/database.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/register.php on line 3
+[17-Apr-2018 11:30:01 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/add-your-tool.php on line 6
+[17-Apr-2018 11:30:01 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/add-your-tool.php on line 6
+[17-Apr-2018 11:30:59 America/Toronto] PHP Warning:  include(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/process-add-your-tool.php on line 23
+[17-Apr-2018 11:30:59 America/Toronto] PHP Warning:  include(): Failed opening 'includes/database.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/process-add-your-tool.php on line 23
+[17-Apr-2018 11:30:59 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/process-add-your-tool.php on line 27
+[17-Apr-2018 11:32:07 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/delete-my-tools.php on line 4
+[17-Apr-2018 11:32:07 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/delete-my-tools.php on line 4
+[17-Apr-2018 23:49:55 America/Toronto] PHP Warning:  require_once(includes/database.php): failed to open stream: No such file or directory in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 4
+[17-Apr-2018 23:49:55 America/Toronto] PHP Fatal error:  require_once(): Failed opening required 'includes/database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kouzaevi/public_html/wellness-test1/my-goals.php on line 4
+[26-Apr-2018 20:59:24 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php on line 27
+[26-Apr-2018 21:00:31 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php on line 27
+[26-Apr-2018 21:00:46 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php on line 27
+[26-Apr-2018 21:01:31 America/Toronto] PHP Fatal error:  Call to a member function prepare() on null in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php on line 27
+[26-Apr-2018 22:11:40 America/Toronto] PHP Fatal error:  Call to a member function execute() on null in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php on line 30
+[26-Apr-2018 22:26:33 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'kouzaevi_grusr'@'localhost' (using password: YES)' in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php:8
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php(8): PDO->__construct('mysql:host=loca...', 'kouzaevi_grusr', '2Mvxr10-3Q-90')
+#1 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php on line 8
+[26-Apr-2018 22:26:45 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'kouzaevi_grusr'@'localhost' (using password: YES)' in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php:8
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php(8): PDO->__construct('mysql:host=loca...', 'kouzaevi_grusr', '2Mvxr10-3Q-90')
+#1 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php on line 8
+[26-Apr-2018 22:26:46 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'kouzaevi_grusr'@'localhost' (using password: YES)' in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php:8
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php(8): PDO->__construct('mysql:host=loca...', 'kouzaevi_grusr', '2Mvxr10-3Q-90')
+#1 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php on line 8
+[26-Apr-2018 22:26:53 America/Toronto] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'kouzaevi_grusr'@'localhost' (using password: YES)' in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php:8
+Stack trace:
+#0 /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php(8): PDO->__construct('mysql:host=loca...', 'kouzaevi_grusr', '2Mvxr10-3Q-90')
+#1 {main}
+  thrown in /home/kouzaevi/public_html/wellness-test1/process-complete-goal.php on line 8

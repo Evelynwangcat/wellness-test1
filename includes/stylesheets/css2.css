@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+
+
+
+            .subContainer{
+                width: 100%;
+            }
+            
+            .displayBlock{
+                display: block;
+            }
+            .IntroduceSlider{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding: 15px 0 0 15px;
+                /*height: 35rem;*/
+                background-color: #fff;
+                overflow:scroll;
+            }
+            .displayNone{
+                display: none;
+            }
+            .tabLight{
+                background-color: #fff;
+            }
+            .tab{
+                background-color: #8953A8;
+                color:#fff;
+                font-size: 2.7em;
+            }   
+
+            #slidecontainer{
+                width: 100%;
+            }
+            .wholeControler{
+                width: 90%;
+                margin: 8px auto;
+            }
+            #controler span{
+                margin: 1px;
+                padding:0 8px;
+                border: 1px solid #ccc;
+                border-bottom:none ;
+                font-size:1.85rem;
+            }
+            .leftPhoto{
+                width: 100px;
+                height: 100px;
+            }
+            .rightContent{
+                width: 80%;
+                /*display: block;*/
+                font-size:2.5em;
+                line-height: 1.5em;
+                font-style: bold;
+                text-indent:40px;
+            }
+
+
+            /*my schedule part*/
+            body{
+                background-color: #e6f1fc; background-image: url('../../assets/bg.jpg');background-repeat: repeat-x;
+            }
+            #blockFirst{
+                width:90%; margin: 0px auto; height: 180px;
+            }
+            #blockFirst2{
+                position: absolute; top:50px; left:50px; width: 30px; height: 30px; cursor: pointer;
+            }
+            #blockFirst3{
+                width: 30px; height: 30px;
+            }
+            
+            #blockFirst4{
+                width: 120px; height: 120px; border-radius: 50%; background-color: #ccc; margin: 0 auto; position:relative; bottom:-120px;
+            }
+            #blockFirst5{
+                width:118px; padding: 1px;
+            }
+            #blocktop{
+                width:90%; margin: 0px auto 0 auto; background-color: #fff;
+            }
+            #blockdown{
+                width:90%; margin: 20px auto; background-color: #fff
+            }
+            #blockdown2{
+                width:20px; position: relative; top: 5px;
+            }
+            #schedule1{
+                font-size:28px; text-align: center; padding: 20px; border-color: #f1c2ca;
+            }
+            #global_layout{
+                width:100%; height: auto; 
+                display: flex; 
+                flex-flow: column; 
+                justify-content:center;
+            }
+            #col12{
+                display: flex; flex-flow: column; justify-content:center; margin-top: 20px;
+            }
+            .Nametext{
+                width: 70%; line-height: 1.5em; font-size:16px;
+            }
+            .Datetext{
+                width: 70%; line-height: 1.5em;font-size:16px;
+            }
+            .Sectiontext{
+                width: 70%; line-height: 1.5em;font-size:16px;
+            }
+            #submitSchedule{
+                background: linear-gradient(0.25turn, #d580fe, #0a9bd6);color:#fff;width: 70%;padding: 5px;font-size:16px;border-radius:20px;
+            }
+            #tableSchedule{
+                width:100%; font-size: 22px; background-color: #fff; line-height: 1.5em; margin-top: 20px; text-align: center;
+            }
+            #tableSchedule1{
+                background-color: #29ABE2; color: #fff;
+            }
+            #createToolTar{
+                position:fixed;
+                top:20px;
+                background-color:#fff;
+                width:55%;
+                padding:1rem;
+                border:solid 1px #333;
+            }
+            #textalienLeft{
+                text-align: right;
+            }
+            .boderTool{
+                
+                border: solid 1px #333;
+                border-radius:10px;
+                width: 60%;
+                font-size:22px;
+                margin:3px;
+                text-align:center;
+            }
+            .createTool1{
+              display: flex; flex-flow: column; justify-content:center;  
+            }
+
+
+
+
+
+
+
+.goals-icons {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.goals-icons ol {
+    text-align: center;
+    margin-bottom: 0 auto;
+}
+.goals-icons ol li {
+    width: 100%;
+    font-size: 2.5em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+
+.goals-icons ol li:nth-child(odd) {
+    background: silver;
+}
+
+.goals-icons  span {
+    font-size: 4.5em;
+    color: coral;
+    padding-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
